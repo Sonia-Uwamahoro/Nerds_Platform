@@ -1,0 +1,203 @@
+
+/* Google Fonts */
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Golos+Text&family=Montserrat:ital,wght@1,200&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300;400;500;600&family=Raleway:wght@100&family=Rubik:wght@300&display=swap');
+
+
+/* General styling */
+
+*{
+    background-color: linear-gradient;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+i{
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+.color{
+    color: #382F73;
+    color: #7391E0;
+    color: #BDCFF2;
+    color: #F29F05;
+    color: #F2F2F2;
+}
+
+/* Navigation bar */
+
+.navbar{
+    background-color: #ffffff;
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar img{
+    width: 8em;
+}
+
+.navbar-icon{
+    position: relative;
+    margin: .3em 0 0 1.3em;
+}
+
+.navbar-icon i{
+    position: relative;
+    color: #7391E0;
+    font-size: 1em;
+
+}
+
+/* button */
+
+.navbar button{
+    margin-left: 1em;
+}
+
+.navbar .navbar-toggler{
+    border: none;
+    color: #7391E0 !important;
+    margin-top: .6em;
+    padding: .2em;
+    font-size: 1.2em;
+}
+
+.navbar .btn-primary{
+    background-color: #7391E0;
+    border: 2px solid #7391E0;
+    font-size: .9em;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.navbar .btn-primary:hover{
+    background-color: #BDCFF2;
+    border: 2px solid #BDCFF2;
+}
+
+.navbar .btn-secondary{
+    background-color: #ffffff;
+    color: #7391E0;
+    border: 2px solid #7391E0;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.navbar .btn-secondary:hover{
+    background-color: #BDCFF2;
+    border: 2px solid #BDCFF2;
+    color: #7391E0;
+}
+
+
+.navbar ul a{
+    font-size: .95rem;
+    transition: color 0.5s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar ul a:hover{
+    color: #7391E0 !important;
+    font-weight: bold;
+}
+
+.navbar ul li a.active{
+    color: #7391E0 !important;
+    
+}
+
+
+
+/* Front page */
+
+
+.front-page-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    overflow: hidden;
+    margin: 8%;
+}
+
+@media only screen and (max-width:777px){
+    .front-page-div{
+        grid-template-columns: 100%;
+    } 
+    .front-image{
+        display: none;
+    }
+}
+
+.front-image{
+    width: 80%;
+}
+
+#front-page{
+  min-height: 650px;
+  background-image: url('../images/MacBook\ Pro\ 14_\ -\ 1.png');
+  width: 100%;
+  background-size:cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.front-page h1{
+    color: #7391E0;
+    font-size: 3em;
+    padding-bottom: .3em;
+}
+
+.front-page h2{
+    color: #000000;
+    font-size: 2em;
+    font-weight: 100;
+    padding-bottom: .2em;
+}
+
+.front-page p{
+    color: #5e636e;
+    font-size: .9em;
+    font-weight: lighter;
+}
+
+.front-page button{
+    background-color: #ffffff;
+    color: #7391E0;
+    border: 2px solid #7391E0;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.front-page button:hover{
+    background-color: #BDCFF2;
+    border: 2px solid #BDCFF2;
+    color: #7391E0;
+}
+
+
+.front-page i{
+    position: relative;
+    color: #7391E0;
+    font-size: 1em;
+    margin: .3em 0 0 .3em;
+    padding: 0 .3em 0 .3em;
+}
+.front-icons{
+    text-align: center;
+}
+.front-icons i{
+font-size: 2em;
+padding: 0 .5em 0 .5em;
+color: #7391E0;
+}
+
+
